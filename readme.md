@@ -1,4 +1,4 @@
-# wik-dps-tp001 (Rust)
+# wik-dps-tp01 (Rust)
 
 ## Start project
 ### Start project without setting port
@@ -13,14 +13,14 @@ Default port is `8080`
 ```sh
 cargo build
 
-export PING_LISTEN_PORT=3000 && ./target/debug/wok-dps-tp001
+export PING_LISTEN_PORT=3000 && ./target/debug/wok-dps-tp01
 ```
 
 #### Linux / MacOS
 ```sh
 cargo build
 
-PING_LISTEN_PORT=3000 ./target/debug/wok-dps-tp001
+PING_LISTEN_PORT=3000 ./target/debug/wok-dps-tp01
 ```
 
 # Usage
